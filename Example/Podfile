@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NavigationKit-iOS-Pod_Example' do
+  pod 'NavigationKit-iOS-Pod', :path => '../'
+
+  target 'NavigationKit-iOS-Pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
