@@ -1,0 +1,16 @@
+PODS:
+  - NavigationKit-iOS-Pod (0.1.0)
+
+DEPENDENCIES:
+  - NavigationKit-iOS-Pod (from `../`)
+
+EXTERNAL SOURCES:
+  NavigationKit-iOS-Pod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NavigationKit-iOS-Pod: 73fac3bbea98d227c5069b7bede9f878f97c99cb
+
+PODFILE CHECKSUM: f8609fac3c6b66749dfa94518dd43a4320ef506c
+
+COCOAPODS: 1.2.0.beta.1
