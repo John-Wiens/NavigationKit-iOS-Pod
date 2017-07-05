@@ -38,22 +38,22 @@
 		436A7B3105CBDE782AD7FCC7226CF5B1 /* Pods-NavigationKit-iOS-Pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigationKit-iOS-Pod_Example-dummy.m"; sourceTree = "<group>"; };
 		58127CCEA21BA6F4297CEC9707B9CA0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A9D1DFEE6115423F1D557D00923486E /* Pods-NavigationKit-iOS-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationKit-iOS-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5F2A201A418D813870006A8F847D65B8 /* Pods-NavigationKit-iOS-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NavigationKit-iOS-Pod_Tests.modulemap"; sourceTree = "<group>"; };
+		5F2A201A418D813870006A8F847D65B8 /* Pods-NavigationKit-iOS-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NavigationKit-iOS-Pod_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		805F53EFD540CD4BCA01EA81FEE4314F /* Pods-NavigationKit-iOS-Pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationKit-iOS-Pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		85A496334AD48FFC9E3A323CDC8EBB7C /* Pods-NavigationKit-iOS-Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NavigationKit-iOS-Pod_Example.modulemap"; sourceTree = "<group>"; };
+		85A496334AD48FFC9E3A323CDC8EBB7C /* Pods-NavigationKit-iOS-Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NavigationKit-iOS-Pod_Example.modulemap"; sourceTree = "<group>"; };
 		8E0E74B37E3F1A43D33130192A2BA54B /* NavigationKit-iOS-Pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NavigationKit-iOS-Pod.xcconfig"; sourceTree = "<group>"; };
-		8F88DC6BCB65770330C053B8F0FA7947 /* Pods_NavigationKit_iOS_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationKit_iOS_Pod_Tests.framework; path = "Pods-NavigationKit-iOS-Pod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F88DC6BCB65770330C053B8F0FA7947 /* Pods_NavigationKit_iOS_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationKit_iOS_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F58D2A0FC0E384310B96BE58CB4ECB /* Pods-NavigationKit-iOS-Pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigationKit-iOS-Pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9774146A56D60CDFFA10E45C19DCF27B /* NavigationKit-iOS-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NavigationKit-iOS-Pod.modulemap"; sourceTree = "<group>"; };
-		9C698CD95F2B7B23A49F0D1F1EAF0DD3 /* Pods_NavigationKit_iOS_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigationKit_iOS_Pod_Example.framework; path = "Pods-NavigationKit-iOS-Pod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9774146A56D60CDFFA10E45C19DCF27B /* NavigationKit-iOS-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NavigationKit-iOS-Pod.modulemap"; sourceTree = "<group>"; };
+		9C698CD95F2B7B23A49F0D1F1EAF0DD3 /* Pods_NavigationKit_iOS_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationKit_iOS_Pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EA06A7763E2D752BA92C578A2F7480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7528858EBEAAD50D6ACE58AF2EEF366 /* Pods-NavigationKit-iOS-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigationKit-iOS-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF98B4D840A4ECC9DF10961A5AFC53D6 /* NavigationKit-iOS-Pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationKit-iOS-Pod-umbrella.h"; sourceTree = "<group>"; };
 		BD127C10C6A47CBA4B94E9BF1790A5BD /* Pods-NavigationKit-iOS-Pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigationKit-iOS-Pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE34443F57F867AE787BFD9C8D02637E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		BF4E759D10FB14FAF019B14BE7E70075 /* NavigationKit_iOS_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationKit_iOS_Pod.framework; path = "NavigationKit-iOS-Pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4E759D10FB14FAF019B14BE7E70075 /* NavigationKit_iOS_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationKit_iOS_Pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C303463023F4ED79E2F479392952103C /* Pods-NavigationKit-iOS-Pod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigationKit-iOS-Pod_Example-umbrella.h"; sourceTree = "<group>"; };
 		D2B7C47709B52AF207F71E042595F7ED /* NavigationKit-iOS-Pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationKit-iOS-Pod-dummy.m"; sourceTree = "<group>"; };
 		E8F4F362AC679E020C9EFF3678A0EC28 /* Pods-NavigationKit-iOS-Pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigationKit-iOS-Pod_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -115,7 +115,6 @@
 			children = (
 				BE34443F57F867AE787BFD9C8D02637E /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -136,9 +135,9 @@
 		6B95DFBD0E66B6ADF4ADB51CCBD51469 /* NavigationKit-iOS-Pod */ = {
 			isa = PBXGroup;
 			children = (
+				C63AB6F71F0D8CC800639C9D /* Frameworks */,
 				2DA3C9E4FB63A4A7F236AA47A8B9488A /* Classes */,
 			);
-			name = "NavigationKit-iOS-Pod";
 			path = "NavigationKit-iOS-Pod";
 			sourceTree = "<group>";
 		};
@@ -186,6 +185,13 @@
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63AB6F71F0D8CC800639C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
