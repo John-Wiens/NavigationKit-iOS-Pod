@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C3FCA31398414FE6D233B410 /* Pods_NavigationKit_iOS_Pod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00790A4257D5AA67E72E4416 /* Pods_NavigationKit_iOS_Pod_Tests.framework */; };
+		C63AB6FF1F0EAC9500639C9D /* Snippets.md in Sources */ = {isa = PBXBuildFile; fileRef = C63AB6FE1F0EAC9500639C9D /* Snippets.md */; };
 		E5D8C607FE5121AB8D6FBB5A /* Pods_NavigationKit_iOS_Pod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDFC6397E7D2FA1FC3BF96 /* Pods_NavigationKit_iOS_Pod_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,9 +65,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71CFDE54852FC6DF46CA96BF /* Pods-NavigationKit-iOS-Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationKit-iOS-Pod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationKit-iOS-Pod_Example/Pods-NavigationKit-iOS-Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1EC54D576BD65EBBAB56C6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C2ABC8FA8A25321EE265C700 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C44536AB8C1E17B562367D6A /* NavigationKit-iOS-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "NavigationKit-iOS-Pod.podspec"; path = "../NavigationKit-iOS-Pod.podspec"; sourceTree = "<group>"; };
+		A1EC54D576BD65EBBAB56C6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2ABC8FA8A25321EE265C700 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C44536AB8C1E17B562367D6A /* NavigationKit-iOS-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "NavigationKit-iOS-Pod.podspec"; path = "../NavigationKit-iOS-Pod.podspec"; sourceTree = "<group>"; };
+		C63AB6FE1F0EAC9500639C9D /* Snippets.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Snippets.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				C63AB6FE1F0EAC9500639C9D /* Snippets.md */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for NavigationKit-iOS-Pod */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -394,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63AB6FF1F0EAC9500639C9D /* Snippets.md in Sources */,
 				6003F59E195388D20070C39A /* JMapAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JMapViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
