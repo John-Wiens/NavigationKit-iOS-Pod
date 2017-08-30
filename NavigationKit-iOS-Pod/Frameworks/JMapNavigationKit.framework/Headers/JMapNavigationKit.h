@@ -14,6 +14,7 @@
 #import "JMapSurroundingElements.h"
 #import "JMapSurroundingDefinition.h"
 #import "JMapDirection.h"
+#import <CoreLocation/CoreLocation.h>
 
 @class JMapInstructionFactory;
 @class JMapSurroundingDefinition;
@@ -24,7 +25,7 @@
 /**
  * The Navigation Kit interface
  */
-@interface JMapNavigationKit : NSObject
+@interface JMapNavigationKit : NSObject <CLLocationManagerDelegate>
 
 /**
  * Controller reference for the navigation kit
@@ -40,6 +41,11 @@
  * Defined angleThreshold for generating instructions, defaults to 20
  */
 @property (nonatomic, nullable) NSNumber *angleThreshold;
+
+/**
+ * Core Location manager object
+ */
+@property (nonatomic, strong) CLLocationManager * locationManager;
 
 /**
  * Initialization method for the navigation kit
@@ -81,5 +87,12 @@
  * @return A float value in pixels for visual range
  */
 - (float)getPixelsFromMillimeters:(float)millimeters;
+
+/**
+*  Activate Navigation Mode.
+*
+*  @param active A Boolean to set rotation navigation to active or inactive
+*/
+- (void)activeNavigationMode:(BOOL)active;
 
 @end
