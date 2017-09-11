@@ -95,4 +95,13 @@
 */
 - (void)activeNavigationMode:(BOOL)active;
 
+/**
+ * Checks if user location is within the threshold from the closest line in the
+ * wayfinding path, returns true if within threshold and false otherwise.
+ *
+ * @param pathPerFloorArray An array of JMapPathPerFloor objects to compare with user's location
+ * @param threshold Millimeter value used to define acceptable distance from wayfinding path
+ */
+- (BOOL)hasUserVeeredOffRoute:(nonnull NSArray <JMapPathPerFloor *> *)pathPerFloorArray threshold:(NSInteger)threshold;
+
 @end
