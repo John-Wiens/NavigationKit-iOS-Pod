@@ -43,6 +43,11 @@
 @property (nonatomic, nullable) NSNumber *angleThreshold;
 
 /**
+ * Defined U-Turn angle threshold for generating a U-Turn instruction. Angle span from directly behind the gaze direction. Defaults to 45
+ */
+@property (nonatomic, nullable) NSNumber *uTurnThreshold;
+
+/**
  * Core Location manager object
  */
 @property (nonatomic, strong) CLLocationManager * locationManager;
