@@ -60,6 +60,10 @@
  */
 @property (nonatomic, strong, nullable) JMapSurroundingElements * surroundingElements;
 /**
+ * The reference to the next floor for an instruction that involves floor switching
+ */
+@property (nonatomic, strong, nullable) JMapFloor * nextFloor;
+/**
  * Initialization method for creating an instruction instance with a given direction
  */
 - (nonnull instancetype)initWithDirection:(nonnull JMapDirection *)direction;
