@@ -1,20 +1,21 @@
 //
-//  JMapNavigationKit.h
+//  JMapNavigation.h
 //  JMapNavigationKit
 //
-//  Created by Louie Yuen on 2017-05-05.
+//  Created by Louie Yuen on 2017-11-30.
 //  Copyright © 2017 Jibestream. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 #import <JMapCoreKit/JMapCoreKit.h>
 #import <JMapControllerKit/JMapController.h>
+
 #import "JMapInstructionFactory.h"
-#import "JMapInstruction.h"
-#import "JMapSurroundingElements.h"
 #import "JMapSurroundingDefinition.h"
+#import "JMapSurroundingElements.h"
+#import "JMapInstruction.h"
 #import "JMapDirection.h"
-#import <CoreLocation/CoreLocation.h>
 
 @class JMapInstructionFactory;
 @class JMapSurroundingDefinition;
@@ -25,7 +26,7 @@
 /**
  * The Navigation Kit interface
  */
-@interface JMapNavigationKit : NSObject <CLLocationManagerDelegate>
+@interface JMapNavigation : NSObject <CLLocationManagerDelegate>
 
 /**
  * Controller reference for the navigation kit
@@ -50,7 +51,7 @@
 /**
  * Core Location manager object
  */
-@property (nonatomic, strong) CLLocationManager * locationManager;
+@property (nonatomic, strong, nullable) CLLocationManager * locationManager;
 
 /**
  * Initialization method for the navigation kit
@@ -94,10 +95,10 @@
 - (float)getPixelsFromMillimeters:(float)millimeters;
 
 /**
-*  Activate Navigation Mode.
-*
-*  @param active A Boolean to set rotation navigation to active or inactive
-*/
+ *  Activate Navigation Mode.
+ *
+ *  @param active A Boolean to set rotation navigation to active or inactive
+ */
 - (void)activeNavigationMode:(BOOL)active;
 
 /**

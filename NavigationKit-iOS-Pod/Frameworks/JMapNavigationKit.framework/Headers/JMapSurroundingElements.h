@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <JMapRenderingKit/JMapRenderingKit.h>
-#import "JMapSurroundingIcon.h"
 #import "JMapSurroundingShape.h"
+#import "JMapSurroundingIcon.h"
 
 /**
  * The Surround Elements Class

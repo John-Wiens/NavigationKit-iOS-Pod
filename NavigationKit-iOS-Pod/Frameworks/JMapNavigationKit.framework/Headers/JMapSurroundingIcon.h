@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JMapSurroundingItem.h"
 #import <JMapRenderingKit/JMapRenderingKit.h>
+#import "JMapSurroundingItem.h"
 
 /**
  * The Surrounding Icon Class

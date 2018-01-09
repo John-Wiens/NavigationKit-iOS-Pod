@@ -8,14 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <JMapControllerKit/JMapController.h>
-#import "JMapNavigationKit.h"
 #import "JMapInstruction.h"
-#import "JMapDirection.h"
-#import "JMapSurroundingDefinition.h"
+#import "JMapNavigation.h"
 
-@class JMapNavigationKit;
+@class JMapNavigation;
 @class JMapInstruction;
 @class JMapDirection;
+@class JMapSurroundingDefinition;
 
 /**
  * The Instruction Factory Class
@@ -25,7 +24,7 @@
 /**
  * The reference to the navigation kit
  */
-@property (nonatomic, strong, readonly, nonnull) JMapNavigationKit * navKit;
+@property (nonatomic, strong, readonly, nonnull) JMapNavigation * navKit;
 
 /**
  * Initialization method for the instruction factory
