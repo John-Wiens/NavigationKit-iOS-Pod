@@ -110,4 +110,14 @@
  */
 - (BOOL)hasUserVeeredOffRoute:(nonnull NSArray <JMapPathPerFloor *> *)pathPerFloorArray threshold:(NSInteger)threshold;
 
+/**
+ * Draws a path with instruction labels added as a component onto each decision/completion waypoint
+ *
+ * @param pathPerFloorArray An array of JMapPathPerFloor objects used to draw a path
+ * @param pathStyle A JMapStyle to style the path being drawn
+ * @param labelStyle The style for the instruction text label (default: Red)
+ * @param font The font/color for the instruction text label (default: System 12pt White)
+ */
+- (void)drawPathWithInstructions:(nonnull NSArray <JMapPathPerFloor *> *)pathPerFloorArray pathStyle:(nullable JMapStyle*)pathStyle labelStyle:(nullable JMapStyle*)labelStyle font:(nullable UIFont*)font;
+
 @end
