@@ -9,8 +9,8 @@ s.homepage         = 'http://www.jibestream.com/'
 s.author           = { 'louieyuen' => 'lyuen@jibestream.com' }
 s.source           = { :git => 'https://github.com/Jibestream/NavigationKit-iOS-Pod', :tag => "#{s.version}" }
 
-s.ios.deployment_target = '9.0'
-s.platform = :ios, '9.0'
-s.vendored_frameworks = 'NavigationKit-iOS-Pod/Frameworks/*.framework'
+s.ios.deployment_target = '10.0'
+s.platform = :ios, '10.0'
+s.vendored_frameworks = 'NavigationKit-iOS-Pod/Frameworks/*.xcframework'
 
 end
