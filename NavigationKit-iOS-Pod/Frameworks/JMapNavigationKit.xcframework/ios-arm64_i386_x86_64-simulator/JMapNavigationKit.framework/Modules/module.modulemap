@@ -1,0 +1,6 @@
+framework module JMapNavigationKit {
+  umbrella header "JMapNavigationKit.h"
+
+  export *
+  module * { export * }
+}

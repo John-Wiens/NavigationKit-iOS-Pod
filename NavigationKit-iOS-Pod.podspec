@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'NavigationKit-iOS-Pod'
-s.version='2.1.1'
+s.version='2.2.0'
 s.summary          = 'The NavigationKit-iOS-Pod for the Jibestream iOS SDK.'
 
 s.description      = 'This CocoaPod provides the release version of the NavigationKit for the Jibestream iOS SDK.'
