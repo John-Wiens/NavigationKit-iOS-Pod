@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0ED11F414DE573F1A664423E9CDBB289 /* Pods-NavigationKit-iOS-Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0625664FCAA06A9A0DB47FC12FA635EB /* Pods-NavigationKit-iOS-Pod_Tests-dummy.m */; };
 		14B5ABAE496B8E5AA82124A8D2C28481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		247A9924A89104A7C6ACD2442A893983 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE34443F57F867AE787BFD9C8D02637E /* ReplaceMe.m */; };
 		5CA1B145EA43361A6CCA4C097D685A47 /* Pods-NavigationKit-iOS-Pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D694A6AD6FBDBC1925023AAF1DA40C /* Pods-NavigationKit-iOS-Pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BE2DC9146E2BD36B3823E60F8FF8571 /* NavigationKit-iOS-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B7C47709B52AF207F71E042595F7ED /* NavigationKit-iOS-Pod-dummy.m */; };
 		71D63DBD8D937A72C23C07484C3683BC /* NavigationKit-iOS-Pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF98B4D840A4ECC9DF10961A5AFC53D6 /* NavigationKit-iOS-Pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -326,6 +325,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -362,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE2DC9146E2BD36B3823E60F8FF8571 /* NavigationKit-iOS-Pod-dummy.m in Sources */,
-				247A9924A89104A7C6ACD2442A893983 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
